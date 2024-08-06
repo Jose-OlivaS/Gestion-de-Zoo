@@ -1,0 +1,21 @@
+public class Main {
+    public static void main(String[] args) {
+
+Perro perro1 = new Perro("Rex",9);
+Gato gato1 = new Gato("Michi",7);
+
+System.out.println("Nombre: " + perro1.getName()  + " edad: " + perro1.getAge());
+perro1.hacerSonido();
+perro1.comiendo();
+perro1.bebiendo();
+perro1.dorimir();
+perro1.hacerTruco("dar la patita");
+
+System.out.println("Nombre: " + gato1.getName()  + " edad: " + gato1.getAge());
+        gato1.hacerSonido();
+        gato1.comiendo();
+        gato1.bebiendo();
+        gato1.dorimir();
+
+    }
+}
