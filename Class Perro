@@ -1,4 +1,4 @@
-public  class Perro extends Animal{
+public  class Perro extends Animal implements Alimentable{
 public Perro(String nombre, int edad){
     super(nombre, edad);
 }
