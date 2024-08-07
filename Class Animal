@@ -24,11 +24,5 @@ public void hacerSonido(){
 public void dorimir(){
 System.out.println("El animal esta durmiendo");
 }
-public void comiendo() {
-    System.out.println("El animal esta comiendo");
-}
-    public void bebiendo(){
-        System.out.println("El animal esta bebiendo");
-    }
 }
 
